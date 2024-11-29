@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+   
+}
+/* .one{
+    width: 100%;
+    height: 100vh;
+} */
+.home{
+    display: flex;
+    height: 100dvh;
+    position: relative;
+    overflow: hidden;
+}
+.home img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+.home .title{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 900;
+    font-size: 80px;
+}
+.about{
+    padding: 50px;
+    background: rgb(30, 187, 132);
+    color: white;
+    position: relative;
+    z-index: 100;
+    height: 300px;
+}
+.home .mount1{
+    top: -10%;
+    right: 17%;
+
+}
+.about{
+    position: relative;
+}
